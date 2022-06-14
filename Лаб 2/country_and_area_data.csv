@@ -1,0 +1,251 @@
+﻿country _or_area,iso_alpha3 _code,m49_code,region_1,region_2,continent,population_rank,population,population_percentage_ of_the_world,date
+Afghanistan,AFG,4,Southern Asia,None,Asia,43,32890171,0.00414,1/07/2020
+Åland Islands,ALA,248,Northern Europe,None,Europe,,30344,0.00000382,31/12/2021
+Albania,ALB,8,Southern Europe,None,Europe,135,2829741,0.000356,1/01/2021
+Algeria,DZA,12,Northern Africa,None,Africa,32,45400000,0.00571,1/01/2022
+American Samoa,ASM,16,Polynesia,None,Oceania,,49710,0.00000625,1/04/2020
+Andorra,AND,20,Southern Europe,None,Europe,185,79535,0.00001,31/12/2021
+Angola,AGO,24,Middle Africa,Sub-Saharan Africa,Africa,45,32097671,0.00404,30/06/2021
+Anguilla,AIA,660,Caribbean,Latin America and the Caribbean,North America,,15000,0.00000189,1/07/2021
+Antarctica,ATA,10,Antarctica,None,Antarctica,,,,
+Antigua and Barbuda,ATG,28,Caribbean,Latin America and the Caribbean,North America,183,99337,0.0000125,1/07/2021
+Argentina,ARG,32,South America,Latin America and the Caribbean,South America,30,47327407,0.00595,18/05/2022
+Armenia,ARM,51,Western Asia,None,Asia,134,2963900,0.000373,31/03/2021
+Aruba,ABW,533,Caribbean,Latin America and the Caribbean,North America,,111050,0.000014,31/12/2020
+Australia,AUS,36,Australia and New Zealand,None,Oceania,53,26002645,0.00327,23/05/2022
+Austria,AUT,40,Western Europe,None,Europe,98,9027999,0.00114,1/04/2022
+Azerbaijan,AZE,31,Western Asia,None,Asia,90,10164464,0.00128,1/03/2022
+Bahamas,BHS,44,Caribbean,Latin America and the Caribbean,North America,170,393450,0.0000495,1/07/2021
+Bahrain,BHR,48,Western Asia,None,Asia,150,1501635,0.000189,17/03/2020
+Bangladesh,BGD,50,Southern Asia,None,Asia,8,172765826,0.0217,23/05/2022
+Barbados,BRB,52,Caribbean,Latin America and the Caribbean,North America,174,288000,0.0000362,1/07/2021
+Belarus,BLR,112,Eastern Europe,None,Europe,95,9349645,0.00118,1/01/2021
+Belgium,BEL,56,Western Europe,None,Europe,82,11629213,0.00146,1/03/2022
+Belize,BLZ,84,Central America,Latin America and the Caribbean,North America,168,430191,0.0000541,1/07/2021
+Benin,BEN,204,Western Africa,Sub-Saharan Africa,Africa,78,12506347,0.00157,1/07/2021
+Bermuda,BMU,60,Northern America,None,North America,,64055,0.00000806,1/07/2021
+Bhutan,BTN,64,Southern Asia,None,Asia,160,763200,0.000096,30/05/2022
+Bolivia,BOL,68,South America,Latin America and the Caribbean,South America,79,11797257,0.00148,1/07/2021
+"Bonaire, Sint Eustatius and Saba",BES,535,Caribbean,Latin America and the Caribbean,North America,,,,
+Bosnia and Herzegovina,BIH,70,Southern Europe,None,Europe,133,3320954,0.000418,1/07/2020
+Botswana,BWA,72,Southern Africa,Sub-Saharan Africa,Africa,142,2410338,0.000303,1/07/2021
+Bouvet Island,BVT,74,South America,Latin America and the Caribbean,South America,,,,
+Brazil,BRA,76,South America,Latin America and the Caribbean,South America,6,214666953,0.027,23/05/2022
+British Indian Ocean Territory,IOT,86,Eastern Africa,Sub-Saharan Africa,Africa,,,,
+British Virgin Islands,VGB,92,Caribbean,Latin America and the Caribbean,North America,,30000,0.00000377,1/07/2021
+Brunei Darussalam,BRN,96,South-eastern Asia,,Asia,169,429999,0.0000541,1/07/2021
+Bulgaria,BGR,100,Eastern Europe,None,Europe,110,6520314,0.00082,7/09/2021
+Burkina Faso,BFA,854,Western Africa,Sub-Saharan Africa,Africa,58,21510181,0.0027,1/07/2020
+Burundi,BDI,108,Eastern Africa,Sub-Saharan Africa,Africa,77,12574571,0.00158,1/07/2021
+Cabo Verde,CPV,132,Western Africa,Sub-Saharan Africa,Africa,,,,
+Cambodia,KHM,116,South-eastern Asia,None,Asia,73,15552211,0.00196,3/03/2019
+Cameroon,CMR,120,Middle Africa,Sub-Saharan Africa,Africa,55,24348251,0.00306,1/07/2019
+Canada,CAN,124,Northern America,None,North America,37,38694903,0.00487,23/05/2022
+Cayman Islands,CYM,136,Caribbean,Latin America and the Caribbean,North America,,65786,0.00000827,30/09/2020
+Central African Republic,CAF,140,Middle Africa,Sub-Saharan Africa,Africa,114,5633412,0.000708,1/07/2020
+Chad,TCD,148,Middle Africa,Sub-Saharan Africa,Africa,70,16818391,0.00211,1/07/2021
+Chile,CHL,152,South America,Latin America and the Caribbean,South America,60,19678363,0.00247,30/06/2021
+China,CHN,156,Eastern Asia,None,Asia,1,1412600000,0.178,31/12/2021
+Hong Kong,HKG,344,Eastern Asia,Special Administrative Region of China,Asia,,7403100,0.000931,31/12/2021
+Macao,MAC,446,Eastern Asia,Special Administrative Region of China,Asia,,649.342,,31/12/2021
+Christmas Island,CXR,162,Australia and New Zealand,None,Oceania,,1966,0,30/06/2020
+Cocos (Keeling) Islands,CCK,166,Australia and New Zealand,None,Oceania,,573,0,30/06/2020
+Colombia,COL,170,South America,Latin America and the Caribbean,South America,28,51049498,0.00642,30/06/2021
+Comoros,COM,174,Eastern Africa,Sub-Saharan Africa,Africa,159,758316,0.0000954,15/12/2017
+Congo,COG,178,Middle Africa,Sub-Saharan Africa,Africa,113,5657000,0.000711,1/07/2021
+Cook Islands,COK,184,Polynesia,None,Oceania,,,,
+Costa Rica,CRI,188,Central America,Latin America and the Caribbean,North America,120,5163038,0.000649,30/06/2021
+Côte d’Ivoire,CIV,384,Western Africa,Sub-Saharan Africa,Africa,,,,
+Croatia,HRV,191,Southern Europe,None,Europe,128,3888529,0.000489,31/08/2021
+Cuba,CUB,192,Caribbean,Latin America and the Caribbean,North America,84,11181595,0.00141,31/12/2020
+Curaçao,CUW,531,Caribbean,Latin America and the Caribbean,North America,,153671,0.0000193,1/01/2021
+Cyprus,CYP,196,Western Asia,None,Asia,158,888005,0.000112,31/12/2019
+Czechia,CZE,203,Eastern Europe,,Europe,,,,
+North Korea,PRK,408,Eastern Asia,None,Asia,54,25660000,0.00323,1/07/2021
+Democratic Republic of the Congo,COD,180,Middle Africa,Sub-Saharan Africa,Africa,16,92378000,0.0116,1/07/2021
+Denmark,DNK,208,Northern Europe,None,Europe,112,5883562,0.00074,1/04/2022
+Djibouti,DJI,262,Eastern Africa,Sub-Saharan Africa,Africa,156,976107,0.000123,1/07/2019
+Dominica,DMA,212,Caribbean,Latin America and the Caribbean,North America,186,72000,0.00000905,1/07/2021
+Dominican Republic,DOM,214,Caribbean,Latin America and the Caribbean,North America,86,10535535,0.00132,1/07/2021
+Ecuador,ECU,218,South America,Latin America and the Caribbean,South America,66,17984680,0.00226,23/05/2022
+Egypt,EGY,818,Northern Africa,None,Africa,14,103320729,0.013,23/05/2022
+El Salvador,SLV,222,Central America,Latin America and the Caribbean,North America,106,6825935,0.000858,1/07/2021
+Equatorial Guinea,GNQ,226,Middle Africa,Sub-Saharan Africa,Africa,149,1505588,0.000189,1/07/2021
+Eritrea,ERI,232,Eastern Africa,Sub-Saharan Africa,Africa,130,3601000,0.000453,1/07/2021
+Estonia,EST,233,Northern Europe,None,Europe,152,1330068,0.000167,1/01/2021
+Eswatini,SWZ,748,Southern Africa,Sub-Saharan Africa,Africa,155,1172000,0.000147,1/07/2021
+Ethiopia,ETH,231,Eastern Africa,Sub-Saharan Africa,Africa,12,117876000,0.0148,1/07/2021
+Falkland Islands,FLK,238,South America,Latin America and the Caribbean,South America,,4000,0,1/07/2021
+Faroe Islands,FRO,234,Northern Europe,None,Europe,,53792,0.00000676,1/03/2022
+Fiji,FJI,242,Melanesia,None,Oceania,157,898402,0.000113,1/07/2021
+Finland,FIN,246,Northern Europe,None,Europe,115,5550066,0.000698,1/02/2022
+France,FRA,250,Western Europe,None,Europe,20,67841000,0.00853,1/04/2022
+French Guiana,GUF,254,South America,Latin America and the Caribbean,South America,,,,
+French Polynesia,PYF,258,Polynesia,None,Oceania,,279890,0.0000352,1/07/2021
+French Southern Territories,ATF,260,Eastern Africa,Sub-Saharan Africa,Africa,,,,
+Gabon,GAB,266,Middle Africa,Sub-Saharan Africa,Africa,143,2233272,0.000281,1/07/2021
+Gambia,GMB,270,Western Africa,Sub-Saharan Africa,Africa,141,2487000,0.000313,1/07/2021
+Georgia,GEO,268,Western Asia,None,Asia,129,3728573,0.000469,1/01/2021
+Germany,DEU,276,Western Europe,None,Europe,19,83222442,0.0105,30/09/2021
+Ghana,GHA,288,Western Africa,Sub-Saharan Africa,Africa,47,30832019,0.00388,27/06/2021
+Gibraltar,GIB,292,Southern Europe,None,Europe,,34000,0.00000428,1/07/2021
+Greece,GRC,300,Southern Europe,,Europe,85,10678632,0.00134,1/01/2021
+Greenland,GRL,304,Northern America,None,North America,,56562,0.00000711,1/01/2022
+Grenada,GRD,308,Caribbean,Latin America and the Caribbean,North America,179,113000,0.0000142,1/07/2021
+Guadeloupe,GLP,312,Caribbean,Latin America and the Caribbean,North America,,,,
+Guam,GUM,316,Micronesia,,Oceania,,153836,0.0000193,1/04/2020
+Guatemala,GTM,320,Central America,Latin America and the Caribbean,North America,69,17109746,0.00215,1/07/2021
+Guernsey,GGY,831,Northern Europe,Channel Islands,Europe,,63124,0.00000794,30/06/2020
+Guinea,GIN,324,Western Africa,Sub-Saharan Africa,Africa,76,12907395,0.00162,1/07/2021
+Guinea-Bissau,GNB,624,Western Africa,Sub-Saharan Africa,Africa,148,1646077,0.000207,1/07/2021
+Guyana,GUY,328,South America,Latin America and the Caribbean,South America,161,743699,0.0000935,1/07/2019
+Haiti,HTI,332,Caribbean,Latin America and the Caribbean,North America,81,11743017,0.00148,1/07/2020
+Heard Island and McDonald Islands,HMD,334,Australia and New Zealand,None,Oceania,,,,
+Holy See,VAT,336,Southern Europe,None,Europe,,,,
+Honduras,HND,340,Central America,Latin America and the Caribbean,North America,92,9546178,0.0012,1/07/2021
+Hungary,HUN,348,Eastern Europe,None,Europe,91,9689000,0.00122,1/01/2022
+Iceland,ISL,352,Northern Europe,None,Europe,172,377280,0.0000474,31/03/2022
+India,IND,356,Southern Asia,None,Asia,2,1409824075,0.177,23/05/2022
+Indonesia,IDN,360,South-eastern Asia,None,Asia,4,272248500,0.0342,1/07/2021
+Iran,IRN,364,Southern Asia,None,Asia,17,85461788,0.0107,23/05/2022
+Iraq,IRQ,368,Western Asia,None,Asia,35,41190700,0.00518,1/07/2021
+Ireland,IRL,372,Northern Europe,None,Europe,122,5011500,0.00063,1/04/2021
+Isle of Man,IMN,833,Northern Europe,None,Europe,,84069,0.0000106,30/05/2021
+Israel,ISR,376,Western Asia,None,Asia,93,9520700,0.0012,23/05/2022
+Italy,ITA,380,Southern Europe,None,Europe,25,58929360,0.00741,28/02/2022
+Jamaica,JAM,388,Caribbean,Latin America and the Caribbean,North America,138,2734093,0.000344,31/12/2019
+Japan,JPN,392,Eastern Asia,None,Asia,11,125502000,0.0158,1/10/2021
+Jersey,JEY,832,Northern Europe,Channel Islands,Europe,,107800,0.0000136,31/12/2019
+Jordan,JOR,400,Western Asia,None,Asia,83,11214840,0.00141,23/05/2022
+Kazakhstan,KAZ,398,Central Asia,None,Asia,61,19228368,0.00242,23/05/2022
+Kenya,KEN,404,Eastern Africa,Sub-Saharan Africa,Africa,29,47564296,0.00598,31/08/2019
+Kiribati,KIR,296,Micronesia,None,Oceania,178,120740,0.0000152,1/07/2021
+Kuwait,KWT,414,Western Asia,None,Asia,123,4670713,0.000587,31/12/2020
+Kyrgyzstan,KGZ,417,Central Asia,None,Asia,108,6700000,0.000843,1/04/2021
+Laos,LAO,418,South-eastern Asia,None,Asia,103,7337783,0.000923,1/07/2021
+Latvia,LVA,428,Northern Europe,None,Europe,146,1874900,0.000236,1/12/2021
+Lebanon,LBN,422,Western Asia,None,Asia,107,6769000,0.000851,1/07/2021
+Lesotho,LSO,426,Southern Africa,Sub-Saharan Africa,Africa,144,2159000,0.000272,1/07/2021
+Liberia,LBR,430,Western Africa,Sub-Saharan Africa,Africa,124,4661010,0.000586,1/07/2021
+Libya,LBY,434,Northern Africa,None,Africa,104,6959000,0.000875,1/07/2021
+Liechtenstein,LIE,438,Western Europe,None,Europe,189,39315,0.00000494,31/12/2021
+Lithuania,LTU,440,Northern Europe,None,Europe,137,2794961,0.000351,1/01/2022
+Luxembourg,LUX,442,Western Europe,None,Europe,163,645397,0.0000812,1/01/2022
+Madagascar,MDG,450,Eastern Africa,Sub-Saharan Africa,Africa,52,26923353,0.00339,1/07/2021
+Malawi,MWI,454,Eastern Africa,Sub-Saharan Africa,Africa,63,18898441,0.00238,1/07/2021
+Malaysia,MYS,458,South-eastern Asia,None,Asia,44,32717000,0.00411,23/05/2022
+Maldives,MDV,462,Southern Asia,None,Asia,171,383135,0.0000482,31/12/2019
+Mali,MLI,466,Western Africa,Sub-Saharan Africa,Africa,59,20856000,0.00262,1/07/2021
+Malta,MLT,470,Southern Europe,None,Europe,167,514564,0.0000647,31/12/2019
+Marshall Islands,MHL,584,Micronesia,None,Oceania,187,54516,0.00000686,1/07/2021
+Martinique,MTQ,474,Caribbean,Latin America and the Caribbean,North America,,,,
+Mauritania,MRT,478,Western Africa,Sub-Saharan Africa,Africa,127,4271197,0.000537,1/07/2021
+Mauritius,MUS,480,Eastern Africa,Sub-Saharan Africa,Africa,154,1266334,0.000159,30/06/2021
+Mayotte,MYT,175,Eastern Africa,Sub-Saharan Africa,Africa,,,,
+Mexico,MEX,484,Central America,Latin America and the Caribbean,North America,10,127996051,0.0161,1/12/2021
+Micronesia,FSM,583,Micronesia,None,Oceania,181,105754,0.0000133,1/07/2021
+Monaco,MCO,492,Western Europe,None,Europe,190,39150,0.00000492,31/12/2021
+Mongolia,MNG,496,Eastern Asia,None,Asia,132,3438596,0.000432,23/05/2022
+Montenegro,MNE,499,Southern Europe,None,Europe,164,621306,0.0000781,1/07/2020
+Montserrat,MSR,500,Caribbean,Latin America and the Caribbean,North America,,5000,0,1/07/2021
+Morocco,MAR,504,Northern Africa,None,Africa,39,36609821,0.0046,23/05/2022
+Mozambique,MOZ,508,Eastern Africa,Sub-Saharan Africa,Africa,46,30832244,0.00388,1/07/2021
+Myanmar,MMR,104,South-eastern Asia,None,Asia,26,55294979,0.00695,1/07/2021
+Namibia,NAM,516,Southern Africa,Sub-Saharan Africa,Africa,140,2550226,0.000321,1/07/2021
+Nauru,NRU,520,Micronesia,None,Oceania,193,11832,0.00000149,1/07/2021
+Nepal,NPL,524,Southern Asia,None,Asia,49,29192480,0.00367,11/11/2021
+Netherlands,NLD,528,Western Europe,None,Europe,67,17724381,0.00223,23/05/2022
+New Caledonia,NCL,540,Melanesia,None,Oceania,,273674,0.0000344,1/07/2021
+New Zealand,NZL,554,Australia and New Zealand,None,Oceania,121,5129973,0.000645,23/05/2022
+Nicaragua,NIC,558,Central America,Latin America and the Caribbean,North America,109,6595674,0.000829,30/06/2020
+Niger,NER,562,Western Africa,Sub-Saharan Africa,Africa,56,24112753,0.00303,1/07/2021
+Nigeria,NGA,566,Western Africa,Sub-Saharan Africa,Africa,7,211400708,0.0266,1/07/2021
+Niue,NIU,570,Polynesia,None,Oceania,,1549,0,1/07/2021
+Norfolk Island,NFK,574,Australia and New Zealand,None,Oceania,,1734,0,30/06/2020
+North Macedonia,MKD,807,Southern Europe,None,Europe,147,1832696,0.00023,1/11/2021
+Northern Mariana Islands,MNP,580,Micronesia,None,Oceania,,47329,0.00000595,1/04/2020
+Norway,NOR,578,Northern Europe,None,Europe,118,5435536,0.000684,31/03/2022
+Oman,OMN,512,Western Asia,None,Asia,125,4527446,0.000569,31/12/2021
+Pakistan,PAK,586,Southern Asia,,Asia,5,225199937,0.0283,1/07/2021
+Palau,PLW,585,Micronesia,None,Oceania,192,17957,0.00000226,1/07/2021
+Panama,PAN,591,Central America,Latin America and the Caribbean,North America,126,4278500,0.000538,1/07/2020
+Papua New Guinea,PNG,598,Melanesia,,Oceania,97,9122994,0.00115,1/07/2021
+Paraguay,PRY,600,South America,Latin America and the Caribbean,South America,102,7353038,0.000925,1/07/2021
+Peru,PER,604,South America,Latin America and the Caribbean,South America,42,33035304,0.00415,1/07/2021
+Philippines,PHL,608,South-eastern Asia,None,Asia,13,111920982,0.0141,23/05/2022
+Pitcairn,PCN,612,Polynesia,None,Oceania,,40,0,1/01/2021
+Poland,POL,616,Eastern Europe,,Europe,38,38057000,0.00479,1/02/2022
+Portugal,PRT,620,Southern Europe,None,Europe,89,10347892,0.0013,22/03/2021
+Puerto Rico,PRI,630,Caribbean,Latin America and the Caribbean,North America,,3285874,0.000413,1/04/2020
+Qatar,QAT,634,Western Asia,None,Asia,136,2799202,0.000352,31/07/2019
+South Korea,KOR,410,Eastern Asia,None,Asia,27,51745000,0.00651,31/12/2021
+Moldova,MDA,498,Eastern Europe,None,Europe,139,2597100,0.000327,1/01/2021
+Réunion,REU,638,Eastern Africa,Sub-Saharan Africa,Africa,,,,
+Romania,ROU,642,Eastern Europe,None,Europe,62,19186201,0.00241,1/01/2021
+Russia,RUS,643,Eastern Europe,None,Europe,9,145478097,0.0183,1/01/2022
+Rwanda,RWA,646,Eastern Africa,Sub-Saharan Africa,Africa,75,12955768,0.00163,1/07/2021
+Saint Barthélemy,BLM,652,Caribbean,Latin America and the Caribbean,North America,,10289,0.00000129,1/01/2019
+Saint Helena,SHN,654,Western Africa,Sub-Saharan Africa,Africa,,6000,0,1/07/2021
+Saint Kitts and Nevis,KNA,659,Caribbean,Latin America and the Caribbean,North America,188,54000,0.00000679,1/07/2021
+Saint Lucia,LCA,662,Caribbean,Latin America and the Caribbean,North America,177,178696,0.0000225,1/07/2018
+Saint Martin (French Part),MAF,663,Caribbean,Latin America and the Caribbean,North America,,32489,0.00000409,1/01/2019
+Saint Pierre and Miquelon,SPM,666,Northern America,None,North America,,5974,0,1/01/2019
+Saint Vincent and the Grenadines,VCT,670,Caribbean,Latin America and the Caribbean,North America,180,110696,0.0000139,1/07/2020
+Samoa,WSM,882,Polynesia,None,Oceania,176,199853,0.0000251,1/07/2021
+San Marino,SMR,674,Southern Europe,None,Europe,191,33705,0.00000424,30/03/2022
+Sao Tome and Principe,STP,678,Middle Africa,Sub-Saharan Africa,Africa,,,,
+Sark,,680,Northern Europe,Channel Islands,Europe,,,,
+Saudi Arabia,SAU,682,Western Asia,None,Asia,41,35013414,0.0044,1/07/2020
+Senegal,SEN,686,Western Africa,Sub-Saharan Africa,Africa,68,17223497,0.00217,1/07/2021
+Serbia,SRB,688,Southern Europe,None,Europe,105,6871547,0.000864,1/01/2021
+Seychelles,SYC,690,Eastern Africa,Sub-Saharan Africa,Africa,184,99202,0.0000125,30/06/2021
+Sierra Leone,SLE,694,Western Africa,Sub-Saharan Africa,Africa,100,8297882,0.00104,1/07/2021
+Singapore,SGP,702,South-eastern Asia,None,Asia,116,5453600,0.000686,30/06/2021
+Sint Maarten (Dutch part),SXM,534,Caribbean,Latin America and the Caribbean,North America,,,,
+Slovakia,SVK,703,Eastern Europe,None,Europe,117,5434712,0.000683,31/12/2021
+Slovenia,SVN,705,Southern Europe,None,Europe,145,2108977,0.000265,1/01/2021
+Solomon Islands,SLB,90,Melanesia,None,Oceania,162,728041,0.0000916,1/07/2021
+Somalia,SOM,706,Eastern Africa,Sub-Saharan Africa,Africa,71,16360000,0.00206,1/07/2021
+South Africa,ZAF,710,Southern Africa,Sub-Saharan Africa,Africa,23,60142978,0.00756,1/07/2021
+South Georgia and the South Sandwich Islands,SGS,239,South America,Latin America and the Caribbean,South America,,30,,
+South Sudan,SSD,728,Eastern Africa,Sub-Saharan Africa,Africa,74,13249924,0.00167,1/07/2020
+Spain,ESP,724,Southern Europe,None,Europe,31,47326687,0.00595,1/07/2021
+Sri Lanka,LKA,144,Southern Asia,None,Asia,57,22156000,0.00279,1/07/2021
+Palestine,PSE,275,Western Asia,None,Asia,119,5227193,0.000657,1/07/2021
+Sudan,SDN,729,Northern Africa,None,Africa,33,44451075,0.00559,23/05/2022
+Suriname,SUR,740,South America,Latin America and the Caribbean,South America,165,598000,0.0000752,1/07/2019
+Svalbard and Jan Mayen Islands,SJM,744,Northern Europe,None,Europe,,,,
+Sweden,SWE,752,Northern Europe,None,Europe,88,10468482,0.00132,31/03/2022
+Switzerland,CHE,756,Western Europe,None,Europe,99,8736500,0.0011,31/12/2021
+Syria,SYR,760,Western Asia,None,Asia,65,18276000,0.0023,1/07/2021
+Tajikistan,TJK,762,Central Asia,None,Asia,94,9506000,0.0012,1/01/2021
+Thailand,THA,764,South-eastern Asia,None,Asia,22,66791242,0.0084,23/05/2022
+Timor-Leste,TLS,626,South-eastern Asia,None,Asia,153,1317780,0.000166,1/07/2021
+Togo,TGO,768,Western Africa,Sub-Saharan Africa,Africa,101,7886000,0.000992,1/07/2021
+Tokelau,TKL,772,Polynesia,None,Oceania,,1501,0,1/07/2021
+Tonga,TON,776,Polynesia,None,Oceania,182,99532,0.0000125,1/07/2021
+Trinidad and Tobago,TTO,780,Caribbean,Latin America and the Caribbean,North America,151,1367558,0.000172,30/06/2021
+Tunisia,TUN,788,Northern Africa,None,Africa,80,11746695,0.00148,1/07/2020
+Turkey,TUR,792,Western Asia,None,Asia,18,84680273,0.0106,31/12/2021
+Turkmenistan,TKM,795,Central Asia,None,Asia,111,6118000,0.000769,1/07/2021
+Turks and Caicos Islands,TCA,796,Caribbean,Latin America and the Caribbean,North America,,44542,0.0000056,1/07/2020
+Tuvalu,TUV,798,Polynesia,None,Oceania,194,10679,0.00000134,1/07/2021
+Uganda,UGA,800,Eastern Africa,Sub-Saharan Africa,Africa,34,42885900,0.00539,1/07/2021
+Ukraine,UKR,804,Eastern Europe,None,Europe,36,41130432,0.00517,1/02/2022
+United Arab Emirates,ARE,784,Western Asia,None,Asia,96,9282410,0.00117,31/12/2020
+United Kingdom,GBR,826,Northern Europe,None,Europe,21,67081000,0.00844,30/06/2020
+Tanzania,TZA,834,Eastern Africa,Sub-Saharan Africa,Africa,24,59441988,0.00748,1/07/2021
+United States Minor Outlying Islands,UMI,581,Micronesia,None,Oceania,,,,
+United States,USA,840,Northern America,None,North America,3,332695610,0.0418,23/05/2022
+United States Virgin Islands,VIR,850,Caribbean,Latin America and the Caribbean,North America,,87146,0.000011,1/04/2020
+Uruguay,URY,858,South America,Latin America and the Caribbean,South America,131,3554915,0.000447,30/06/2021
+Uzbekistan,UZB,860,Central Asia,None,Asia,40,35555696,0.00447,23/05/2022
+Vanuatu,VUT,548,Melanesia,None,Oceania,173,301295,0.0000379,1/07/2021
+Venezuela,VEN,862,South America,Latin America and the Caribbean,South America,50,28705000,0.00361,1/07/2021
+Vietnam,VNM,704,South-eastern Asia,None,Asia,15,98505400,0.0124,1/07/2021
+Wallis and Futuna Islands,WLF,876,Polynesia,None,Oceania,,11369,0.00000143,1/01/2021
+Western Sahara,ESH,732,Northern Africa,None,Africa,,612000,0.000077,1/07/2021
+Yemen,YEM,887,Western Asia,None,Asia,48,30491000,0.00383,1/07/2021
+Zambia,ZMB,894,Eastern Africa,Sub-Saharan Africa,Africa,64,18400556,0.00231,1/07/2021
+Zimbabwe,ZWE,716,Eastern Africa,Sub-Saharan Africa,Africa,72,15790716,0.00199,1/07/2021
+Taiwan,TWN,158,Eastern Asia,Province of China,Asia,,23375314,0.00294,31/12/2021
