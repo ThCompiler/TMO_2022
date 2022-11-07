@@ -415,6 +415,15 @@ alertmanager_bot_telegram_token: YOU_TOKEN
 # admin_pass: admin
 ```
 
+Также потребуется указать себя, как рзрешенного для общения с ботом пользователя в файле `inventory_vms/group_vars/all/monitoring.yml`. Надо будет заменить указанный там id на свой.
+
+Свой id можно получить с помошью [тг бота](https://telegram.me/userinfobot)
+
+```yml
+alertmanager_bot_telegram_admins:
+  - YOU_ID
+```
+
 После чего катим:
 
 ```bash
