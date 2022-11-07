@@ -395,12 +395,32 @@ sudo systemctl start vmalert
 ### 2.3. Настройка AlertManger-bot
 
 Идем в telegram к боту [@BotFather](https://telegram.me/BotFather) и создаем нового бота командой `/newbot`. 
-Когда пройдем квест по созданию получим токен, его нужно будет вписать в конфиг alertmanage-bot-у, но т.к.
-мы настраиваем его с помощью ansible, то в файл `inventory_vms/group_vars/all/secrets.yml`, после чего катим:
+Когда пройдем квест по созданию, получим токен:
+![image](https://user-images.githubusercontent.com/48956541/200374472-f55c1b46-1e83-4037-ac5a-e10f5f30cc62.png)
+
+Его нужно будет вписать в конфиг alertmanage-bot-у, но т.к.
+мы настраиваем его с помощью ansible, то в файл `inventory_vms/group_vars/all/secrets.yml` нужно записать токен:
+
+```yaml
+---
+# Ansible user password
+ansible_become_pass: password
+
+# Assol IU5 telegram bot (@assol_iu5_bot)
+# To create another bot - write @BotFather and replace token
+alertmanager_bot_telegram_token: YOU_TOKEN
+
+# Grafana
+# admin_user: admin
+# admin_pass: admin
+```
+
+После чего катим:
 
 ```bash
 ansible-playbook -i inventory_vms/ playbooks/monitoring.yml --tags alertmanager-bot
 ```
+
 
 Если все хорошо - идем к своему боту (в моем примере https://t.me/yuki_iu5_bot) и пишем `/start`. Бот должен ответить.
 
