@@ -128,7 +128,7 @@ ExecStart=/usr/local/bin/victoria-metrics-prod \
     -storageDataPath=/mnt/data/victoria-metrics/ \
     -retentionPeriod=3 \
     -search.latencyOffset=15s \
-    -httpListenAddr=0.0.0.0: 8428
+    -httpListenAddr=0.0.0.0:8428
 
 ExecReload=/bin/kill -HUP $MAINPID
 
@@ -266,7 +266,7 @@ ExecStart=/usr/local/bin/vmalert-prod \
   -notifier.url=http://127.0.0.1:9093 \
   -remoteWrite.url=http://127.0.0.1:8428 \
   -remoteRead.url=http://127.0.0.1:8428 \
-  -httpListenAddr=127.0.0.1: 8880
+  -httpListenAddr=127.0.0.1:8880
 ExecReload=/bin/kill -HUP $MAINPID
 
 [Install]
