@@ -112,7 +112,7 @@ sudo systemctl status node_exporter
 wget https://github.com/prometheus/node_exporter/releases/download/v1.4.0/node_exporter-1.4.0.linux-amd64.tar.gz
 sudo tar -xvf node_exporter-1.4.0.linux-amd64.tar.gz -C /usr/local/bin/
 
-sudo chown -R root:root /usr/local/bin/node_exporter-1.4.0.linux-amd
+sudo chown -R root:root /usr/local/bin/node_exporter-1.4.0.linux-amd64
 
 sudo systemctl edit --full node_exporter.service
 ```
