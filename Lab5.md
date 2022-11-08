@@ -60,7 +60,17 @@ sudo cp -r /home/mak/.ssh /home/ansible/ && chown -R ansible:ansible /home/ansib
 sudo apt install ansible
 ```
 
-Теперь катнем ansible - поставим node_exporter и другое ПО:
+Также нам понадобится приватный ключ, но копировать его не безопастно. Поэтому придумали ssh-agent, который хранит его в оперативки. Нам нужно перенести его с нашей локальной машины в виртуальную
+
+После этого, для того чтобы всё работало, в **Windows** при подключении через **Putty**(обязательно через него) обязательно разрешить проброс ssh-agent:
+![Putty](https://user-images.githubusercontent.com/48956541/200607733-ff35c642-80b7-4448-aa18-2f363f3d2315.png)
+
+Если вы заходите не через Windows, то при запуске команды `ssh` надо добавить флаг `-A`:
+```bash
+ssh -A ansible@127.0.0.1
+```
+
+Теперь катнем ansible - поставим node_exporter и другое ПО, пароль для ansible *Zelda*:
 
 ```bash
 git clone git@bmstu.codes:iu5/infrastructure/ansible-monitoring-test.git
@@ -89,14 +99,6 @@ echo $(cat ~/.ssh/authorized_key)
 
 Добавляе полученный ранее публичный ключ:
 ![новый ключ](https://user-images.githubusercontent.com/48956541/200607452-bd65b043-7df1-460a-aba3-aa6bc13ebc12.png)
-
-После этого, для того чтобы всё работало, в **Windows** при подключении через **Putty**(обязательно через него) обязательно разрешить проброс ssh-agent:
-![Putty](https://user-images.githubusercontent.com/48956541/200607733-ff35c642-80b7-4448-aa18-2f363f3d2315.png)
-
-Если вы заходите не через Windows, то при запуске команды `ssh` надо добавить флаг `-A`:
-```bash
-ssh -A ansible@127.0.0.1
-```
 
 Проверим:
 
