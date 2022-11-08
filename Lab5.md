@@ -71,6 +71,33 @@ ansible-playbook -i inventory_vms/ playbooks/all_hosts.yml
 cd -
 ```
 
+Т.к. Мы клоним по ssh, надо гитлабу передать наш публичный ключ (**Данное действие лучше не применить в рабочих проектов, т.к. ключ авторизации и работы по ssh имеют разное назначение. Здесь применяется такой метод для простоты и из-за учебной направленности**)
+И так нам понадобится публичный ключ от вашей Виртуалки. Его можно получить изнутри, если вы его уже потеряли):
+
+![image](https://user-images.githubusercontent.com/48956541/200606583-f1ec42ec-46f7-4d7d-8aa5-c1dcdd4861c7.png)
+Команда:
+```bash
+echo $(cat ~/.ssh/authorized_key)
+```
+
+Дальше надо зайти в настройки своего [Gitlab](https://bmstu.codes):
+![стартовая страница](https://user-images.githubusercontent.com/48956541/200606925-7ea8c078-a37a-410c-99a5-93f45d85d658.png)
+![страница настроек](https://user-images.githubusercontent.com/48956541/200607150-e3cd33c9-f1b5-4667-a286-7da91787261f.png)
+
+После чего попадаем в [вкладку](https://bmstu.codes/-/profile/keys) с добавлением ssh ключей:
+![страница добавления ssh ключей](https://user-images.githubusercontent.com/48956541/200607164-9e05a505-95c6-43e7-b934-2151a12d81b1.png)
+
+Добавляе полученный ранее публичный ключ:
+![новый ключ](https://user-images.githubusercontent.com/48956541/200607452-bd65b043-7df1-460a-aba3-aa6bc13ebc12.png)
+
+После этого, для того чтобы всё работало, в **Windows** при подключении через **Putty**(обязательно через него) обязательно разрешить проброс ssh-agent:
+![Putty](https://user-images.githubusercontent.com/48956541/200607733-ff35c642-80b7-4448-aa18-2f363f3d2315.png)
+
+Если вы заходите не через Windows, то при запуске команды `ssh` надо добавить флаг `-A`:
+```bash
+ssh -A ansible@127.0.0.1
+```
+
 Проверим:
 
 ```bash
