@@ -484,6 +484,35 @@ export DEBUG_METRICS=false
 ./test.py
 ```
 
+Добавляем новый сервис в конфиг *victoria-metrics* `/etc/prometheus/prometheus.conf`:
+
+```yaml
+global:
+  scrape_interval: 15s # Set the scrape interval to every X seconds. Default is every 1 minute.
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Victoria Metrics itself.
+scrape_configs:
+  - job_name: 'victoria-metrics'
+    static_configs:
+      - targets: ['localhost:8428']
+  - job_name: 'node'
+    static_configs:
+      - targets:
+        - 'localhost:9100'
+# Наш питоновский сервис
+  - job_name: 'test'
+    static_configs:
+      - targets:
+        - 'localhost:5000'
+```
+
+Перезапускаем *victoria-metrics*:
+
+```bash
+sudo systemctl restart victoria-metrics
+```
+
 Ставим дашборд: https://raw.githubusercontent.com/rycus86/prometheus_flask_exporter/master/examples/sample-signals/grafana/dashboards/example.json
 
 ```bash
