@@ -314,105 +314,105 @@ sudo nano /etc/prometheus/vmalert-rules.yml
 groups:
   - name: main
     rules:
-  - alert: HostSystemdServiceCrashed
-    expr: node_systemd_unit_state{state="failed"} == 1
-    for: 0m
-    labels:
-      severity: critical
-      module: infra
-    annotations:
-      summary: "Host systemd service crashed (instance {{ $labels.instance }})"
-      description: "{{ $labels.name }} at {{ $labels.instance }} - state failed."
-  - alert: HostOOMKillDetected
-    expr: increase(node_vmstat_oom_kill[1m]) > 0
-    for: 0m
-    labels:
-      severity: critical
-      module: infra
-    annotations:
-      summary: "Host OOM kill detected (instance {{ $labels.instance }})"
-      description: "OOM kill detected at {{ $labels.instance }}, VALUE = {{ $value }}, LABELS: {{ $labels }}."
-  - alert: HostOutOfMemory
-    expr: node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes < 0.2s
-    for: 1m
-    labels:
-      severity: warning
-      module: infra
-    annotations:
-      summary: "Host {{ $labels.instance }} {{ $labels.env }} height memory usage"
-      description: "{{ $labels.instance }} has more than 70% of its memory used, VALUE = {{ $value }}, LABELS: {{ $labels }}."
-  - alert: HostHighCpuLoad
-    expr: 100 - (avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[2m])) * 100) > 70
-    for: 0m
-    labels:
-      severity: warning
-      module: infra
-    annotations:
-      summary: "Host high CPU load (instance {{ $labels.instance }})"
-      description: "{{ $labels.instance }} CPU load is > 70%, VALUE = {{ $value }}, LABELS: {{ $labels }}."
-  - alert: HostOutOfDiskSpace
-    expr: (node_filesystem_avail_bytes * 100) / node_filesystem_size_bytes < 20 and ON (instance, device, mountpoint) node_filesystem_readonly == 0
-    for: 2m
-    labels:
-      severity: warning
-      module: infra
-    annotations:
-      summary: "Host out of disk space (instance {{ $labels.instance }})"
-      description: "{{ $labels.instance }} disk is almost full (< 20% left), VALUE = {{ $value }}, LABELS: {{ $labels }}."
-  - alert: HostNetworkRxErrors
-    expr: rate(node_network_receive_errs_total[2m]) / rate(node_network_receive_packets_total[2m]) > 0.
-    for: 2m
-    labels:
-      severity: warning
-      module: infra
-    annotations:
-      summary: "Host Network Receive Errors (instance {{ $labels.instance }})"
-      description: '{{ $labels.instance }} interface {{ $labels.device }} has encountered {{ printf "%.0f" $value }} receive errors in the last five minutes. VALUE = {{ $value }}.'
-  - alert: HostNetworkTxErrors
-    expr: rate(node_network_transmit_errs_total[2m]) / rate(node_network_transmit_packets_total[2m]) > 0.
-    for: 2m
-    labels:
-      severity: warning
-      module: infra
-    annotations:
-      summary: "Host Network Transmit Errors (instance {{ $labels.instance }})"
-      description: '{{ $labels.instance }} interface {{ $labels.device }} has encountered {{ printf "%.0f" $value }} transmit errors in the last five minutes. VALUE = {{ $value }}.'
-  - alert: HostClockSkew
-    expr: (node_timex_offset_seconds > 0.05 and deriv(node_timex_offset_seconds[5m]) >= 0) or (node_timex_offset_seconds < -0.05 and deriv(node_timex_offset_seconds[5m]) <= 0)
-    for: 2m
-    labels:
-      severity: warning
-      module: infra
-    annotations:
-      summary: "Host clock skew (instance {{ $labels.instance }})"
-      description: "Clock skew detected. Clock is out of sync. VALUE = {{ $value }}. LABELS: {{ $labels }}."
-  - alert: InstanceDown
-    expr: up == 0
-    for: 1m
-    labels:
-      severity: critical
-      module: infra
-    annotations:
-      summary: "Instance {{ $labels.instance }} down"
-      description: "{{ $labels.instance }} of job {{ $labels.job }} has been down for more than 1 minute."
-  - alert: HostEdacUncorrectableErrorsDetected
-    expr: node_edac_uncorrectable_errors_total > 0
-    for: 0m
-    labels:
-      severity: warning
-      module: infra
-    annotations:
-      summary: "Host EDAC Uncorrectable Errors detected (instance {{ $labels.instance }})"
-      description: '{{ $labels.instance }} has had {{ printf "%.0f" $value }} uncorrectable memory errors reported by EDAC. VALUE = {{ $value }}. LABELS: {{ $labels }}.'
-  - alert: HostPhysicalComponentTooHot
-    expr: node_hwmon_temp_celsius > 70
-    for: 3m
-    labels:
-      severity: critical
-      module: infra
-    annotations:
-    summary: "Host physical component too hot (instance {{ $labels.instance }})"
-    description: "Physical hardware component {{ $labels.instance }} too hot. VALUE = {{ $value }}."
+      - alert: HostSystemdServiceCrashed
+        expr: node_systemd_unit_state{state="failed"} == 1
+        for: 0m
+        labels:
+          severity: critical
+          module: infra
+        annotations:
+          summary: "Host systemd service crashed (instance {{ $labels.instance }})"
+          description: "{{ $labels.name }} at {{ $labels.instance }} - state failed."
+      - alert: HostOOMKillDetected
+        expr: increase(node_vmstat_oom_kill[1m]) > 0
+        for: 0m
+        labels:
+          severity: critical
+          module: infra
+        annotations:
+          summary: "Host OOM kill detected (instance {{ $labels.instance }})"
+          description: "OOM kill detected at {{ $labels.instance }}, VALUE = {{ $value }}, LABELS: {{ $labels }}."
+      - alert: HostOutOfMemory
+        expr: node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes < 0.2s
+        for: 1m
+        labels:
+          severity: warning
+          module: infra
+        annotations:
+          summary: "Host {{ $labels.instance }} {{ $labels.env }} height memory usage"
+          description: "{{ $labels.instance }} has more than 70% of its memory used, VALUE = {{ $value }}, LABELS: {{ $labels }}."
+      - alert: HostHighCpuLoad
+        expr: 100 - (avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[2m])) * 100) > 70
+        for: 0m
+        labels:
+          severity: warning
+          module: infra
+        annotations:
+          summary: "Host high CPU load (instance {{ $labels.instance }})"
+          description: "{{ $labels.instance }} CPU load is > 70%, VALUE = {{ $value }}, LABELS: {{ $labels }}."
+      - alert: HostOutOfDiskSpace
+        expr: (node_filesystem_avail_bytes * 100) / node_filesystem_size_bytes < 20 and ON (instance, device, mountpoint) node_filesystem_readonly == 0
+        for: 2m
+        labels:
+          severity: warning
+          module: infra
+        annotations:
+          summary: "Host out of disk space (instance {{ $labels.instance }})"
+          description: "{{ $labels.instance }} disk is almost full (< 20% left), VALUE = {{ $value }}, LABELS: {{ $labels }}."
+      - alert: HostNetworkRxErrors
+        expr: rate(node_network_receive_errs_total[2m]) / rate(node_network_receive_packets_total[2m]) > 0
+        for: 2m
+        labels:
+          severity: warning
+          module: infra
+        annotations:
+          summary: "Host Network Receive Errors (instance {{ $labels.instance }})"
+          description: '{{ $labels.instance }} interface {{ $labels.device }} has encountered {{ printf "%.0f" $value }} receive errors in the last five minutes. VALUE = {{ $value }}.'
+      - alert: HostNetworkTxErrors
+        expr: rate(node_network_transmit_errs_total[2m]) / rate(node_network_transmit_packets_total[2m]) > 0
+        for: 2m
+        labels:
+          severity: warning
+          module: infra
+        annotations:
+          summary: "Host Network Transmit Errors (instance {{ $labels.instance }})"
+          description: '{{ $labels.instance }} interface {{ $labels.device }} has encountered {{ printf "%.0f" $value }} transmit errors in the last five minutes. VALUE = {{ $value }}.'
+      - alert: HostClockSkew
+        expr: (node_timex_offset_seconds > 0.05 and deriv(node_timex_offset_seconds[5m]) >= 0) or (node_timex_offset_seconds < -0.05 and deriv(node_timex_offset_seconds[5m]) <= 0)
+        for: 2m
+        labels:
+          severity: warning
+          module: infra
+        annotations:
+          summary: "Host clock skew (instance {{ $labels.instance }})"
+          description: "Clock skew detected. Clock is out of sync. VALUE = {{ $value }}. LABELS: {{ $labels }}."
+      - alert: InstanceDown
+        expr: up == 0
+        for: 1m
+        labels:
+          severity: critical
+          module: infra
+        annotations:
+          summary: "Instance {{ $labels.instance }} down"
+          description: "{{ $labels.instance }} of job {{ $labels.job }} has been down for more than 1 minute."
+      - alert: HostEdacUncorrectableErrorsDetected
+        expr: node_edac_uncorrectable_errors_total > 0
+        for: 0m
+        labels:
+          severity: warning
+          module: infra
+        annotations:
+          summary: "Host EDAC Uncorrectable Errors detected (instance {{ $labels.instance }})"
+          description: '{{ $labels.instance }} has had {{ printf "%.0f" $value }} uncorrectable memory errors reported by EDAC. VALUE = {{ $value }}. LABELS: {{ $labels }}.'
+      - alert: HostPhysicalComponentTooHot
+        expr: node_hwmon_temp_celsius > 70
+        for: 3m
+        labels:
+          severity: critical
+          module: infra
+        annotations:
+            summary: "Host physical component too hot (instance {{ $labels.instance }})"
+            description: "Physical hardware component {{ $labels.instance }} too hot. VALUE = {{ $value }}."
 ```
 
 Запустим сервис:
