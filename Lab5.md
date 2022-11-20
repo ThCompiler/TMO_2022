@@ -117,7 +117,7 @@ sudo chown -R root:root /usr/local/bin/node_exporter-1.4.0.linux-amd64
 sudo systemctl edit --full node_exporter.service
 ```
 
-Добавим к пути до исполняемого файла каталог с новой версией: `node_exporter-1.4.0.linux-amd64`
+Добавим к пути до исполняемого файла каталог с новой версией: `/usr/local/bin/node_exporter-1.4.0.linux-amd64/node_exporter`
 
 ```bash
 sudo systemctl daemon-reload && sudo systemctl restart node_exporter
@@ -249,6 +249,10 @@ user: `admin`, password: `admin`.
 Устанавливаем новый пароль для `admin`.
 
 Настраиваем [datasource](http://127.0.0.1:3000/datasources).
+![datasources](https://user-images.githubusercontent.com/48956541/202902589-8dfc84a2-8aae-4af8-b277-535eb981e9c6.png)
+![add_datasource](https://user-images.githubusercontent.com/48956541/202902624-4c82f4b8-e77c-4708-ac40-4711adf27ac4.png)
+![prometheus_datasource](https://user-images.githubusercontent.com/48956541/202902607-850e9b7d-7356-4115-aeb5-ba4bae8def7a.png)
+
 
 Пробуем подключиться к другому серверу: [grafana.argobay.ml](https://grafana.argobay.ml/d/YRQ4piiRf/main?orgId=1).
 
@@ -453,7 +457,7 @@ alertmanager_bot_telegram_admins:
   - YOU_ID
 ```
 
-После чего катим:
+Пишем боту `/start`, катим:
 
 ```bash
 ansible-playbook -i inventory_vms/ playbooks/monitoring.yml --tags alertmanager-bot
