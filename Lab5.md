@@ -118,6 +118,8 @@ sudo systemctl edit --full node_exporter.service
 ```
 
 Добавим к пути до исполняемого файла каталог с новой версией: `/usr/local/bin/node_exporter-1.4.0.linux-amd64/node_exporter`
+![new_node_exporter_path](https://user-images.githubusercontent.com/48956541/202902714-c7240bb3-96ed-47d8-aec5-2d66d04af73f.png)
+
 
 ```bash
 sudo systemctl daemon-reload && sudo systemctl restart node_exporter
